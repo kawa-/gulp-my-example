@@ -3,7 +3,7 @@
 ## Usage
 
 ~~~
-$ ./init.sh
+$ sudo ./init.sh
 $ gulp
 
 # devlopmentモードで動かす
