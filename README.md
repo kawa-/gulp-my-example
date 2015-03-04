@@ -7,8 +7,8 @@
 - JSを結合+minify
 - HTMLをminify
 - bowerを使用
-– 画像を最適化
-– express(node)をサーバーとして使用、さらにgzip圧縮
+- 画像を最適化
+- express(node)をサーバーとして使用、さらにgzip圧縮
 
 です。
 
