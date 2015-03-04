@@ -1,5 +1,15 @@
 # gulp-my-example
 
+自分用のgulpの練習です。主に行ったことは、
+
+- LESSをCSSに変換
+- CSSを結合＋minify
+- JSを結合+minify
+- HTMLをminify
+- bowerを使用
+
+です。
+
 ## Usage
 
 ~~~
