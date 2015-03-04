@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset=UTF-8>
+<title>js-example</title>
+  
+<!-- LESSファイルとless.jsの読み込み-->
+<!-- build:css -->
+<link rel="stylesheet/less" type="text/css" href="less/app.less"/>
+<link rel="stylesheet/less" type="text/css" href="less/app2.less"/>
+<script src="bower_components/less.js/dist/less.min.js"></script>
+<!-- endbuild -->
+  
+<!-- jQueryの読み込み -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+  
+<!-- 自作のjsファイルの読み込み -->
+<!-- build:js -->
+<script src="js/func.js"></script>
+<script src="js/app.js"></script>
+<!-- endbuild -->
+</head>
+<body>
+    <!-- ボタン -->
+    <div>
+        <h2>js-example</h2>
+        <input id="btn01" type="button" value="click me!">
+    </div>
+      
+    <hr>
+      
+    <!-- 圧縮されるべき画像 -->
+    <div>
+        <p>This is an example image file that will be <span class="red-big">reduced</span>.</p>
+        <img src="img/image.png">
+    </div>
+  
+    <!-- このコメントは削除されるべきです -->
+    <!-- このコメントは削除されるべきです -->
+    <!-- このコメントは削除されるべきです -->
+</body>
+</html>

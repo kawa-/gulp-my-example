@@ -1,0 +1,21 @@
+@h2-color: blue;
+@div-border: solid 2px gray;
+  
+.rounded (@radius: 100px) {
+    width: @radius;
+    height: @radius;
+    border-radius: @radius;
+    border: solid 2px red;
+}
+  
+h2 {
+    color: @h2-color;
+}
+  
+div {
+    border: @div-border;
+}
+  
+img {
+    .rounded(150px);
+}
